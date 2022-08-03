@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff512f, #dd2476);
+    font-family: 'Sora', sans-serif;
+}
+
+.container {
+    width: 40%;
+    position: absolute;
+    /* border: 2px solid white; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    min-width: 450px;
+    padding: 30px 40px;
+}
+
+#newtask {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+#newtask input {
+    width: 70%;
+    height: 45px;
+    font-size: 15px;
+    padding: 12px;
+    font-weight: 500;
+    border: 2pz solid #d1d3d4;
+    position: relative;
+    color: #111111;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #ff512f;
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ff512f;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#task {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.task {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background: #ff512f;
+    color: #fff;
+    width: 40px;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.header h1 {
+    /* margin: 20px auto; */
+    /* margin-bottom: 15px; */
+    text-align: center;
+}
+
+#newtask input {
+    margin-top: 15px;
+}
+
+#newtask button {
+    margin-top: 15px;
+
+}
